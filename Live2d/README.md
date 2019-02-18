@@ -1,12 +1,3 @@
-原项目出自一个大佬的博客，猫与向日葵。[阅读原文](https://imjad.cn/archives/lab/add-dynamic-poster-girl-with-live2d-to-your-blog-02 "阅读原文")  
-本文对于原文和原作有删改。  
-
-嘛，不少人对这个 Live2D 看板娘很感兴趣呢！
-纷纷让我写文章，而学长也是懒癌晚期，一直拖到现在 ~
-
-好了，还是准备开始我们的教程吧！
-俗话说：“授人以鱼不如授人以渔”，但是说这个“渔”比较难教，还是给条“鱼”你完事了。
-
 ### 准备工作
 首先到我的 [Github](https://github.com/galnetwen/Live2D "Github") 去下载整理后的 Live2D 代码，毕竟整理后的话好下手 ~
 
@@ -88,13 +79,3 @@ PHP 程序推荐使用主题函数获取绝对路径。
 本文章中所用模型解包自 [药水制作师](https://play.google.com/store/apps/details?id=com.sinsiroad.potionmaker&hl=zh_CN "药水制作师") 手机游戏，版权归该官方所有。  
 （没错，我也安利下这款 ~~萝莉控~~ 游戏。啪！）  
 ![](https://haremu.com/wp-content/uploads/2017/11/%E6%BB%91%E7%A8%BD%E6%89%93%E8%84%B8.png)
-
-### 更新日志
-**2017.12.30**
-- 主程序更新至原博主 v1.0.4 版本，添加了跨域画布支持；服装字段支持使用绝对地址，服装可以使用外部地址了，比如 CDN ，支持 SSL链接 。
-- 消息提示程序一些细节修改，一言 API 修改为 [http://hitokoto.cn](http://hitokoto.cn "http://hitokoto.cn") 官方。
-- 添加一个 Live2D 元素的隐藏按钮，隐藏后，需要刷新页面才能出现，因为按钮也被隐藏了 ~
-
-**2018.08.10**
-- 主程序更新至原博主 v1.0.5 版本。
-- 修正一言 API 的 URL 地址。
